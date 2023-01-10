@@ -1,0 +1,18 @@
+table {
+    white-space: nowrap;
+}
+.table-wrap {
+    margin-bottom: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.table-wrap::-webkit-scrollbar {
+    height: 8px;
+    background-color: #e6e6e749;
+    border-radius: 10px;
+}
+.table-wrap::-webkit-scrollbar-thumb {
+    height: 8px;
+    background-color: #d2dce5bc;
+    border-radius: 10px;
+}
